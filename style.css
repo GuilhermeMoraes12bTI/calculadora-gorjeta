@@ -104,6 +104,10 @@ main {
             border-radius: .5rem;
         }
 
+        .button-selected {
+            background: var(--topaz);
+        }
+
         input {
             width: 100%;
             border: none;
@@ -171,6 +175,8 @@ main {
          padding-bottom: .9rem;
 
     }
+
+
 }
 
 @media (min-width: 920px){
