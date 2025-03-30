@@ -179,6 +179,12 @@ main {
 
 }
 
+
+input::-webkit-inner-spin-button, 
+input::-webkit-outer-spin-button {
+    display: none;
+}
+
 @media (min-width: 920px){
 
 
@@ -197,13 +203,6 @@ main {
     }
 
 
-    input::-webkit-inner-spin-button, 
-    input::-webkit-outer-spin-button {
-        display: none;
-    }
-
-
-
     .info {
         .tip {
             div{
@@ -211,7 +210,7 @@ main {
 
                 button:hover {
                     cursor: pointer;
-                    background: var(--topaz);
+                    background: var(--water-leaf);
                     transition: .3s;
                 }
             }
